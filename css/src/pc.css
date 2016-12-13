@@ -1,0 +1,78 @@
+/*pc.css*/
+@media screen and (min-width:1024px){
+	
+	
+/*	header*/
+	
+	#head_box .unb{min-width: 7.5rem;width:8.453125vw;}
+	#head_box .menu_click_unb_size{width: 350px;}
+	#head_box h1{float: right;}
+	
+		
+	#head_box .cart{ display:none;}
+	#head_box .my{display:none;}
+	
+/*aside	*/
+	
+	.slide_menu {margin-top: 3.25rem;}
+
+	
+	
+/*	section_video*/
+	.cf_box{position: fixed;top: 0;width: 100%;height: 100%; z-index: -100;overflow: hidden;background-color: #000;}
+	.dark{position: absolute;width: 100%;height: 100%;margin-top: 0;margin-left: 0;background-color: rgba(0,0,0,0.3);z-index: 100}
+	#video {position: absolute;min-width: 120rem;width: 100vw;height: auto;top: 0;left: 0;overflow: hidden;
+	}
+	
+
+
+/*	section banner*/
+	
+	#add_banner{height:19vw; z-index: 0;margin-top: 100vh;}
+    .banner_01{background-image: url('../../img/main/pc/pc_banner_01.png');}
+    .banner_02{}
+    .banner_03{}
+    .banner_04{}
+
+	
+/*	article item*/
+	
+	
+	#item ul {min-width: calc(100% / 5); width: calc(100vw / 5 / 360 * 100);}
+	#item ul>li:nth-child(2) {width:85%;margin-left: 7.5%;}
+	
+	
+	/*	article content*/
+    
+        
+    
+    .content ul{float: left;}
+    .content ul a{padding-top: 7vw;}
+    
+	.content li {height: 20.5vw;font-size: 3vw;}
+    
+    #content_01{width: 100%;} 
+  
+    #content_01 li{width: 25%;}
+    
+    #content_02{width: 60%;}
+    #content_02 li{width: calc(100% / 3);}
+
+    
+    #content_03{width: 40%;} 
+
+    #content_03 li{width: 50%;} 
+    
+    #content_01 li:nth-child(1) div {background-image: url('../../img/main/pc/everydaymakeup.png');}
+	#content_01 li:nth-child(2) div{background-image: url('../../img/main/pc/eyebrowbar.png')}
+	#content_01 li:nth-child(3) div{background-image: url('../../img/main/pc/lastchance.png')}
+	#content_01 li:nth-child(4) div{background-image: url('../../img/main/pc/eyemix.png')}
+	#content_02 li:nth-child(1) div{background-image: url('../../img/main/pc/foundation.png')}
+	#content_02 li:nth-child(2) div{background-image: url('../../img/main/pc/color.png')}
+	#content_02 li:nth-child(3) div{background-image: url('../../img/main/pc/brush.png')}
+	#content_03 li:nth-child(1) div{background-image: url('../../img/main/pc/brand.png')}
+	#content_03 li:nth-child(2) div{background-image: url('../../img/main/pc/store.png')}
+	
+	/*	footer*/
+	
+	

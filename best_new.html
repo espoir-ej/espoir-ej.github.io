@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+		<link rel="apple-touch-icon" href="img/espior.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="img/espior.ico">
+		
+		
+		<!--reset-->
+		<link rel="stylesheet" href="./css/bin/reset.css">
+		<!--fontawesome-->
+		<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+		<!--flaticon-->
+		<link rel="stylesheet" href="./flat_icon/flaticon.css">
+		<!--header_css-->
+		<link rel="stylesheet" href="./css/src/header.css">
+		<!--footer_css-->
+		<link rel="stylesheet" href="./css/src/footer.css">
+		<!--base_css-->
+		<link rel="stylesheet" href="./css/src/best_new/base.css">
+		<!--320~599-->
+		<link rel="stylesheet" href="./css/src/best_new/mob.css">
+		<!--600~1023-->
+		<link rel="stylesheet" href="./css/src/best_new/tab.css">
+		<!--1024~-->
+		<link rel="stylesheet" href="./css/src/best_new/pc.css">
+		
+		
+		
+		<script src="js/jquery/jquery-1.12.4.min.js"></script>
+		<script src="js/jquery/jquery-ui.min.js"></script>
+		
+		<!--[if lte IE 9]>
+			<script src="ie/html5shiv/src/html5shiv.js"></script>
+			<script src="ie/ie7/IE8.js"></script>
+			<script src="ie/PIE/PIE_IE678.js"></script>
+			<script src="ie/Respond/src/respond.js"></script>
+		<![endif]-->
+		
+		<title>espoir</title>
+	</head>
+	
+	<body>
+	    <header id="head_box" class="clearfix" role="banner">
+            <div class="cancle_area"></div>
+	        <nav class="unb clearfix">
+	    		<h1><a href="index.html"><span class="hidden">espoir_logo</span></a></h1>
+	    			
+	    		<h2 class="menu">
+	    					<button type="button">
+	    						<i class="fa fa-bars" aria-hidden="true"></i>
+	    						<span class="hidden">utility menu</span>
+	    					</button>
+	    				
+	    		</h2>
+	    			
+	    		
+	               <aside class="slide_menu">
+	    		
+	    			
+	    			    <div class="menu_area">
+	    			    
+	    			        <form id="search" class="clearfix" method="get" action="#">
+	    			                            <input type="text" class="search" name="serach" maxlength="120">
+	    			                            <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+	    			        </form>
+	    			        <ul>
+	    			            <li class="shop"><button type="button">SHOP<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="protip"><button type="button">PRO TIP<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="chance"><button type="button">CHANCE<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="service"><button type="button">SERVICE<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="review"><a href="#">REVIEW</a></li>
+	    			            <li class="brand"><button type="button">BRAND<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			        </ul>
+	    			        
+	    			    
+	    			    </div>
+	    			
+	               </aside>
+	    		
+	    		
+	    		<div class="my">
+	    			<a href="#">
+	    				<i class="fa fa-user" aria-hidden="true" style="color:#fff;"></i>
+	    				<span class="hidden">MY</span>
+	    			</a>
+	    		</div>
+	    		
+	    		
+	    		<div class="cart">
+	    			<a href="#">
+	    				<i class="fa fa-shopping-cart" aria-hidden="true" style="color:#fff;"></i>
+	    				<span class="hidden">CART</span>
+	    			</a>
+	    		</div>
+	    			
+	    	</nav>
+	    			
+	    </header>
+	    
+	    
+	    <section id="best_new" class="clearfix">
+            <h3>
+            <i class="fa fa-home" aria-hidden="true"></i>
+            SHOP/베스트&amp;신제품</h3>
+            
+             <ul id="lnb_big" class="clearfix">
+             <li class="lnb_big_01"><button type="button">BEST</button></li>
+             <li class="lnb_big_02"><button type="button">NEW</button></li>
+            </ul>
+            
+	        <div class="info">
+	            <p>꾸준히 사랑받는 에스쁘아 베스트 셀러</p>
+	            <h2>BEST SELLERS</h2>
+	            
+	        </div>
+	        
+	        <ul id="lnb_small" class="clearfix">   
+	            <li class="lnb_small_01"><button type="button">All</button></li>
+	            <li class="lnb_small_02"><button type="button">Lip</button></li>
+	            <li class="lnb_small_03"><button type="button">Eye</button></li>
+	            <li class="lnb_small_04"><button type="button">Cheek</button></li>
+	            <li class="lnb_small_05"><button type="button">Nail</button></li>
+	            <li class="lnb_small_06"><button type="button">FaceMakeup</button></li>
+	            <li class="lnb_small_07"><button type="button">Skincare</button></li>
+	            <li class="lnb_small_08"><button type="button">Bodycare</button></li>
+	            <li class="lnb_small_09"><button type="button">Perfumes</button></li>
+	            <li class="lnb_small_10"><button type="button">ProTool</button></li>
+	        </ul>
+	        
+	        <select name="lnb_s" id="lnb_s">
+	            <option value="">ALL</option>
+	            <option value="">LIP</option>
+	            <option value="">EYE</option>
+	            <option value="">CHEEK</option>
+	            <option value="">NAIL</option>
+	            <option value="">FACE MAKEUP</option>
+	            <option value="">SKINCARE</option>
+	            <option value="">BODYCARE</option>
+	            <option value="">PERFUMES</option>
+	            <option value="">PRO TOOL</option>
+	        </select>
+	        
+	        <select name="align" id="align">
+	            <option value="">인기순</option>
+	            <option value="">조회순</option>
+	        </select>
+	        
+	        <content id="item" class="clearfix">
+	           
+	            
+	        </content>
+          
+            
+	          
+	   </section>
+       
+        <div id="popup">
+	     <div class="close_area"></div>
+           <div class="popup">
+               
+                <ul>
+                    <li><div class="close"><button type="button"><i class="flaticon-close" aria-hiddeen="true"></i></button></div></li>
+                    <li></li>
+                    <li>이름</li>
+                    <li>가격</li>
+                    <li>간단설명</li>
+                    <li>
+                        <select name="option" id="option">
+                            <option value="">color</option>
+                        </select>
+                    </li>
+                </ul>
+                
+                <div class="pop_cart"><button type="button">CART</button></div>
+                <div class="pop_buy"><button type="button">BUY</button></div>
+           </div>
+        </div>	        
+	        
+	          
+	    
+	    
+	    
+	    
+	    
+	      
+        <footer>
+			
+				<address>고객상담:080-619-8888  월~금 09:00~18:00(토/일/공휴일 휴무)<br />
+					이메일:espoirmail@espoir.com </address>
+			
+			<h3 class="clearfix">
+				<a href="#">서비스이용약관</a>
+				<a href="#">개인정보취급방침</a>
+			</h3>
+			
+			<address>ⓒ2015 eSporir. All Right Reserved.</address>
+		</footer>
+		
+		
+   <script src="js/src/slide_menu.js"></script>
+   <script src="js/src/best_new.js"></script>
+    </body>
+</html>

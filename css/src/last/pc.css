@@ -1,0 +1,11 @@
+/*eyebrow_pc.css*/
+@media screen and (min-width:64rem){
+#last{box-sizing: border-box;padding: 0 12.6vw;}
+    #last h3{display: block;width: 100%;height: 3rem;border-bottom: 2px solid #777;font-size: 0.9rem;/*border: 1px solid #f02;*/box-sizing: border-box;color: #777;padding-top: 1.5rem;font-family: 'Noto Sans KR', sans-serif;font-weight: lighter}
+   
+   
+    .info{width: 100%;height: 20rem;background-color: #ccc;margin-bottom: 2rem}
+    content div{width: 100%;height: 28rem;background-color: #555;box-sizing: border-box;border: 1px solid #f20;}
+    #item ul{width: calc(100% / 5);padding: 1rem 1.6666vw;}
+    .popup{width: 30rem;height:35rem;top: 50%;left: 50%; margin-top:-17.5rem;margin-left: -15rem}
+}

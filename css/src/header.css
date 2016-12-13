@@ -1,0 +1,114 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Nanum Gothic', sans-serif;*/
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
+
+
+body{overflow-x: hidden;font-family: 'Noto Sans KR', sans-serif; }
+button{background-color: transparent;}
+/*	header-------------------------------------------------------------------*/
+    .cancle_area{width: 100vw;background-color: rgba(0,0,0,0.5);position: fixed;z-index: 400;top: 0;left: 0;}
+    .height{height: 100vh;}
+
+	
+/*aside*/
+.unb .menu{width: auto;height: auto;font-size: 1.5rem; position: fixed;top: 0;left: 0;margin-top: 0.75rem;margin-left: 1.2rem;z-index: 700}
+    .slide_menu{width: 20rem;height:100vh;box-sizing: border-box;position: fixed; z-index: 600; top: 0;left: -21.88rem;  background-color: #111;transition:all 0.2s linear 0s;border-right: 0.2rem solid #000;overflow: hidden;}
+    .active{left:0;}
+
+        .menu_area{width: 43.76rem;height: 100%;}
+
+            .slide_menu form input{width:12rem;height: 1.4rem;margin: 0.9rem 0;margin-bottom: 2rem; margin-left: 5rem;}
+
+                .slide_menu form button{width: 1.2rem;height: 1.2rem;}
+                    .slide_menu form i{font-size: 1.2rem;margin-left: 0.2rem;}
+
+            .slide_menu ul{width: 21.88rem;height: 100%;float: left;overflow-y: scroll;overflow-x: hidden}
+                .slide_menu ul li{width: 21.88rem;height: 4rem;box-sizing: border-box;line-height: 4rem; text-indent: 1.2rem;border-top: 1px solid #444;}
+                .slide_menu ul li:last-child{border-bottom: 1px solid #444;}
+                    .slide_menu ul li button{width: 21.88rem;height: 4rem;line-height: 4rem;color: #fff;text-align: left;font-family: 'Open Sans Condensed', sans-serif;}
+.slide_menu ul li a{width: 21.88rem;height: 4rem;line-height: 4rem;color: #fff;text-align: left;font-family: 'Open Sans Condensed', sans-serif;}
+                        .slide_menu ul li i{float: right; margin-right: 4rem;margin-top: 1rem;}
+
+            .slide_menu dl{float: right;width: 21.88rem;height: 100vh;background-color: #111;position:absolute;z-index: 10000;top: 0;left: 21.88rem;overflow-y: scroll;overflow-x: hidden;}
+                .slide_menu dt{width: 21.88rem;height: 4rem;box-sizing: border-box;padding: 0 1rem;line-height: 4rem;font-family: 'Open Sans Condensed', sans-serif;color: #fff;border-top: 1px solid #444;}
+                .slide_menu dt:first-child{width: 20rem;height: 4.5rem;font-size: 2rem;line-height: 4.5rem;position:fixed;top: 0;left: 0;background-color: #111;}
+                .slide_menu dt:nth-of-type(2){margin-top: 4.5rem}
+                    .slide_menu dl dt .prev{width: auto;height: 2.0rem;float: left;margin-right: 1rem;margin-top: 1rem;}
+                        .slide_menu dl dt .prev i{font-size: 2rem;}
+                            .slide_menu dl .menu{width: 3em;height:3rem;position: fixed;z-index: 15000;top: 1.2rem; left: 16rem;margin: 0;}
+                            .slide_menu dl .menu:hover{position: fixed;z-index: 15000;top: 1.2rem; left: 16rem;margin: 0;transform: rotateY(360deg);transition: all 1.2s}
+                            .slide_menu dl .menu button{width: 3rem;height: 2rem;}
+                                .slide_menu dl .menu i{width: 3rem;height: 2rem;font-size: 1.5rem;}
+                    .slide_menu dt a{display: block; width: 20rem;height: 4rem;text-align: left;font-size: 1.025rem;font-family: 'Nanum Gothic', sans-serif;font-weight:lighter; color: #fff}
+                        .slide_menu dt .fa-angle-down, .slide_menu dt .fa-angle-up{float: right;font-size: 1.7rem;margin-top: 1rem;margin-right: 2rem}
+
+                .slide_menu dd{display: none;width: 100%;height: auto;box-sizing: border-box;background-color: #333;}
+                    .slide_menu dd div{width: 100%;height: 3rem;box-sizing: border-box;border-bottom: 1px solid #444;background-color: #333;padding:0.25rem 1.2rem;font-size: 0.9rem;line-height: 2.7rem}
+                        .slide_menu dd div a{display: block;color: #fff;font-family: 'Noto Sans KR', sans-serif;font-weight:lighter}
+
+/* mob.css */
+@media screen and (max-width: 37.44rem){
+
+	
+	#head_box h1{width: 4.63rem;height: 2.13rem; float: left;position: absolute;z-index: 100;margin-left: 50vw;left: -35px;top:0.4rem}
+	    #head_box h1>a{display: block; width: 100%; height: 100%; background-image: url(../../img/logo.png); background-repeat:no-repeat; background-size:120%;	background-position:center; float: left}
+	
+	#head_box .cart{ float: right;margin-right: 3.75vw;}
+	#head_box .my{ float: right; }
+    
+    
+	#head_box{width: 100%;height:auto;position: fixed;z-index:500; top: 0;left: 0;}
+	    #head_box .unb{font-size: 1.5rem;box-sizing: border-box;padding: 0.75rem; background-color: #111; transition:all 0.2s linear 0.035s;}
+	        #head_box .unb i{color: #fff;}
+
+}
+
+/*tab.css*/
+
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+	
+
+	#head_box h1{width: 4.63rem;height: 2.13rem; float: left;position: absolute;z-index: 100;margin-left: 50vw;left: -35px;top:0.4rem}
+        #head_box h1>a{display: block; width: 100%; height: 100%; background-image: url(../../img/logo.png); background-repeat:no-repeat; background-size:120%;	background-position:center; float: left}
+    #head_box .cart{display: block; float: right;margin-right: 3.75vw;}
+	#head_box .my{display: block; float: right; }
+
+    
+    #head_box{width: 100%;height:auto;position: fixed;z-index:500; top: 0;left: 0;}
+	    #head_box .unb{width: 100%;font-size: 1.5rem;box-sizing: border-box;padding: 0.75rem; background-color: #111; transition:all 0.2s linear 0.035s;}
+	        #head_box .unb i{color: #fff;}
+}
+/*pc*/
+
+@media screen and (min-width:1024px){	
+	
+    #head_box{width: 100%;height:auto;position: fixed;z-index:500; top: 0;left: 0;}
+	    #head_box .unb{min-width: 8.5rem;width:8.453125vw;height: 3rem;position: relative;font-size: 1.5rem;box-sizing: border-box;padding: 0.75rem; background-color: #111; transition:all 0.2s linear 0.035s;}
+	            #head_box .unb i{color: #fff;}
+	        #head_box .menu_click_unb_size{width: 20rem;}
+	        #head_box h1{width: 4.63rem;height: 2.13rem;position: absolute;top: 0.4rem;right: 0.2rem;z-index: 1000;}
+	    
+                #head_box h1>a{display: block; width: 100%; height: 100%; background-image: url(../../img/logo.png); background-repeat:no-repeat; background-size:120%;	background-position:center; float: left}
+	    	
+	        #head_box .cart{float: left;margin-left: 1.2rem;margin-right: 0;}
+	            #head_box .cart a{display: block; box-sizing: border-box;border: 1px solid #fff;padding:0.1rem 2.7rem;}
+	        #head_box .my{float: right;margin-right: 1.2rem;}
+	            #head_box .my a{display: block; box-sizing: border-box;border: 1px solid #fff;padding:0.1rem 2.7rem;}
+	            #head_box span{color: #fff;font-family: 'Open Sans Condensed', sans-serif;font-size: 1rem;}
+    
+	
+    
+    /*aside	*/
+	
+	.slide_menu {box-sizing: border-box;padding-top: 5.25rem;}
+	
+	    .slide_menu ul {float: left}
+	    .slide_menu form {width:21.88rem;height: 1.5rem;margin:2rem 1.2rem;float: left;}
+	        .slide_menu form input {width:15rem;height: 1.5rem;margin:0;padding: 0;float: left}
+	        .slide_menu form button {width: 1.2rem;height: 1.2rem;margin-left: 0.75rem;float: left;margin-top: -0.2rem;}
+	            .slide_menu form button i{font-size: 1.2rem;}
+
+
+    }
+

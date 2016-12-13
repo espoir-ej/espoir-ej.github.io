@@ -1,0 +1,49 @@
+/*eyebrow_base.css*/
+
+
+#last{margin-top: 3.2rem;width: 100%;height: auto;box-sizing: border-box;position:relative;}
+
+.info{width: 100%;height: 20rem;background-color: #ccc;background-image: url(../../../img/last/last_top.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+
+	
+	
+	#item ul{height: 18rem;float: left;text-align: center;box-sizing: border-box;transition: all 0.3s;/*border: 1px solid #000;*/margin:2.5rem 0;}
+	
+	#item ul>li{width: 100%;font-family: 'Nanum Gothic', sans-serif;cursor: pointer;font-size: 0.9rem;box-sizing: border-box;/* border: 1px solid #000;*/margin-bottom: 0.8rem;}
+	#item ul>li:first-child{height: 60%;background-repeat: no-repeat;background-position: center; background-size:contain;}
+	#item ul>li:nth-child(2){
+			overflow: hidden;
+ 			text-overflow: ellipsis;
+ 			display: -webkit-box;
+ 			-webkit-line-clamp: 2; /* 라인수 */
+ 			-webkit-box-orient: vertical;
+ 			word-wrap:break-word; 
+ 			line-height:0.9rem;
+ 			height: 1.8rem; 
+		}
+	#item ul>li:last-child{height: 1.6rem;margin-bottom: 0;}
+	#item ul>li a{width: 100%;height: 100%;}
+	#item ul>li button{width: 100%;height: 100%;background-color: #111;color: #fff}
+	#item ul>li button:hover{width: 100%;height: 100%;background-color: #ee401d;color: #fff;transition: all 0.3s}
+
+
+#popup {display: none;width: 100vw;height: 100vh;background-color: rgba(0,0,0,0.5); box-sizing: border-box;position: fixed;top: 0;left: 0;z-index: 1000}
+.popup {background-color: #fff;box-sizing: border-box;border: 1px solid #000;position: absolute;padding: 1rem 2rem;z-index: 200;}
+.close{width: 2rem;height: 100%;float: right;margin-right: 1.2rem;}
+.close button{width: auto;height: 100%;box-sizing: border-box;font-size: 1.2rem;color: #000;}
+.popup ul {width: 100%;height: 85%;box-sizing: border-box;/*border: 1px solid #000;*/
+float: left}
+.popup li {width: 100%;box-sizing: border-box;/*border: 1px solid #000;*/text-align: center;background-size: contain;background-repeat: no-repeat;background-position: center;font-size: 0.9rem;}
+.popup li:nth-child(1){height:10% ;} 
+.popup li:nth-child(2){height:48%;padding:0 15%;} 
+.popup li:nth-child(3){height:10% ;} 
+.popup li:nth-child(4){height:10% ;} 
+.popup li:nth-child(5){height:10% ;border-bottom: 1px solid #000;} 
+.popup li:nth-child(6){height:12% ;margin-top: 2%;} 
+.popup li select{width: 100%;height:50% ;font-size: 0.9rem;text-indent: 1.2rem} 
+.pop_cart, .pop_buy{width: 50%;height: 7%;float: left;text-align: center;margin-top: 5%;}
+.pop_cart{background-color: #000;}
+.pop_buy{background-color: #ee401d;}
+.pop_cart button, .pop_buy button{width: 90%;height: 90%;color: #fff;font-size: 1rem}
+
+.close_area{width: 100vw;height: 100vh;position: absolute;z-index: 100;background-color: rgba(0,0,0,0.5);top: 0;left: 0;}

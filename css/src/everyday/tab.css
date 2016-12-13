@@ -1,0 +1,9 @@
+/*every_tab.css*/
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+    #posting{width: 100%;height: auto;margin-top: 1.8rem;box-sizing: border-box;padding: 1.5rem 2.6vw;/*border: 1px solid #f02*/}
+        #posting h3{display: none;}
+        #posting h2{width: 100%;height: 3rem;font-family: 'Open Sans Condensed', sans-serif;text-align: left;font-size: 1.5rem;line-height: 3rem;margin-bottom: 2rem;/*border: 1px solid #f02;*/border-bottom: 2px solid #777;text-indent: 0.25rem}
+    
+    #recommend .reco_img{height: 78.125vw;}
+    #recommend .how{height: 58.59375vw;}
+}

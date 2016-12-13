@@ -1,0 +1,32 @@
+/*eyebrow_tab.css*/
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+    
+     #color{width: 100%;height: auto;margin-top: 1.8rem;box-sizing: border-box;padding: 1.5rem 2.6vw;/*border: 1px solid #f02*/}
+        #color h3{display: none;}
+        #color h2{width: 100%;height: 3rem;font-family: 'Open Sans Condensed', sans-serif;text-align: left;font-size: 1.5rem;line-height: 3rem;margin-bottom: 2rem;/*border: 1px solid #f02;*/border-bottom: 2px solid #777;text-indent: 0.25rem}
+    
+    #select_color{width: 100%;height: 3rem;margin-bottom: 1rem;box-sizing: border-box;position: relative;}
+   
+        #select_color .right,#select_color .left{width: 2.5rem;height: 3rem;position: absolute;z-index: 100;top:0;}
+        #select_color .left{/*margin: 0 1.5rem 0 2rem;*/left:0}
+        #select_color .right{/*margin :0 2rem 0 1.5rem;*/right:0}
+        #select_color .right button, #select_color .left button{width: 3rem;height: 2.5rem;text-align: center}
+        #select_color button i{font-size: 2.5rem;color: #111;opacity: 0.5}
+        #select_color button i:hover{color: #ee401d;opacity: 0.7}
+    
+    .color_pad{width:70%;height: inherit;box-sizing: border-box;margin-left: 15%;overflow: hidden;float: left;}
+    .color_pad ul{width: 500%;height: inherit;margin-left: -21.25%}
+    .color_pad ul li{width:3%;height: inherit;margin-left: 1.25%;box-sizing: border-box;float: left;}
+    .color_pad ul li input[type="checkbox"]{position: absolute;z-index: -1;opacity: 0;}
+    .color_pad ul li label{display: block; width: 100%;height: 100%;position:relative;}
+    .color_pad ul li label i{position: absolute;font-size: 1.5rem;top: 50%;left: 50%;margin-top: -.75rem;margin-left: -.75rem;display: none;}
+    .color_pad ul li:first-child{margin-left: 0}
+    
+    
+    
+    #item_type{width: 100%;height: 1.8rem;float: left;margin-top: 1.25rem;}
+    
+    #sample_color{width: 100%;height: auto;box-sizing: border-box;margin-top: 5rem;padding: 0 3rem;}
+    #sample_color ul li{width: 15%;height: 13vw;margin-right: 6.25%;box-sizing: border-box;float: left;margin-bottom: 5.33%;}
+    #sample_color ul li:nth-child(5n){margin-right: 0;}
+}

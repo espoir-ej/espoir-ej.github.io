@@ -1,0 +1,63 @@
+/* mob.css */
+@media screen and (max-width: 37.44rem){
+
+/*aside*/
+
+	
+	
+	
+/*	section video*/
+	#video{display: none;}
+	
+/*	section banner*/
+		
+	#add_banner{min-width: 22.5rem; min-height:12.5rem; height:55.55555vw; }
+	.banner_01{background-image: url('../../../img/main/main_banner.jpg');}
+	.banner_02{background-image: url('../../../img/main/main_banner_20161013_02.jpg');}
+	.banner_03{background-image: url('../../../img/main/main_banner_20161104_01.jpg');}
+	.banner_04{background-image: url('../../../img/main/main_banner_20161108_01.jpg');}
+
+	
+/*	article item*/
+	
+	/*#item ul {min-width: calc(100vw / 3); width: calc(100vw / 3 / 600 * 100);padding: 0 1rem}
+	#item ul li{width: 100%;font-size: 2.5vw}*/
+	
+	#item {display: none;}
+	
+
+
+	
+/*	article content*/
+	.content li{height: 33.333333vw;font-size: 6vw}
+	
+	 #content_03 li, #content_01 li{width: 50%;}
+	#content_02 li{width:calc(100%/3);}
+   
+	
+	
+    .content ul a{padding-top: 8.5vw;}
+/*
+    
+    #content_01 a{left:15vw;} 
+    #content_01 li:last-child a{left:16.5vw;} 
+    
+    #content_02 li:first-child a{left:3vw}
+    #content_02 li:nth-child(2) a{left:10vw}
+    #content_02 li:last-child a{left:10vw}
+    #content_03 a{left: 19vw} 
+	
+*/
+	#content_01 li:nth-child(1) div{background-image: url('../../../img/main/mob/everydaymakeup.png')}
+	#content_01 li:nth-child(2) div{background-image: url('../../../img/main/mob/eyebrowbar.png')}
+	#content_01 li:nth-child(3) div{background-image: url('../../../img/main/mob/lastchance.png')}
+	#content_01 li:nth-child(4) div{background-image: url('../../../img/main/mob/eyemix.png')}
+	#content_02 li:nth-child(1) div{background-image: url('../../../img/main/mob/foundation.png')}
+	#content_02 li:nth-child(2) div{background-image: url('../../../img/main/mob/color.png')}
+	#content_02 li:nth-child(3) div{background-image: url('../../../img/main/mob/brush.png')}
+	#content_03 li:nth-child(1) div{background-image: url('../../../img/main/mob/brand.png')}
+	#content_03 li:nth-child(2) div{background-image: url('../../../img/main/mob/store.png')}
+
+/*	footer*/
+	
+}

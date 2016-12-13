@@ -1,0 +1,28 @@
+/*every_pc.css*/
+@media screen and (min-width:64rem){
+    
+/*#head_box .unb::after{content: " ";display: block;width: 100vw;height: 100%;background-color: #000;position:absolute;z-index: 60;top: 0;left: 0;}*/
+    
+    #posting{width: 100%;height: auto;box-sizing: border-box;padding: 1.4rem 12.6vw;/*border: 1px solid #f02*/}
+    
+    #posting::after{content: "";display: block;width: 14.85rem;height: 2rem;
+        border-bottom:2px solid #fff; position: absolute;z-index: 100;top:12.1rem;right: calc(12.6vw + 8.1rem);}
+
+    
+        #posting h3{width: 100%;height: 3rem;border-bottom: 2px solid #777;font-size: 0.9rem;/*border: 1px solid #f02;*/box-sizing: border-box;color: #777;padding-top: 1.5rem;font-family: 'Noto Sans KR', sans-serif;font-weight: lighter}
+        #posting h3 i{margin-right: 0.2rem;font-size: 1rem;}
+        #posting h2{width: 100%;height: 4rem;font-family: 'Open Sans Condensed', sans-serif;text-align: left;font-size: 1.5rem;line-height:4rem;margin-bottom: 2rem;/*border: 1px solid #f02;*/box-sizing: border-box;border-bottom: 2px solid #777;text-indent: 0.25rem;background-color: #333;color: #fff;text-indent: 0.5rem}
+    
+    #change_day{margin-bottom: 0;}
+    #change_day .left, #change_day .right{display: none}
+        .today_01, .today_02, .today_03{display: block;height: 2.5rem;box-sizing: border-box;border: 1px solid #ccc;float: right;font-size: 1rem;line-height: 2.5rem;text-align: center;}
+            .today_01 button, .today_03 button{width: inherit;height: inherit;}
+        .today_01{width: 8rem;border-right:0;border-radius: 0.3rem 0 0 0;border-bottom: 2px solid #fff;font-size: 0.8rem;}
+        .today_02{width: 15rem;border-radius: 0.3rem 0.3rem 0 0 ;border: 2px solid #333;border-bottom: 2px solid #fff;position: relative;}
+   
+        .today_03{width: 8rem;border-left:0;border-radius: 0 0.3rem 0 0 ;border-bottom: 2px solid #fff;font-size: 0.8rem;}
+   
+    #recommend{padding: 1.2rem 10vw;border-top: 2px solid #777;}
+        #recommend .reco_img{height: 41.6666vw;}
+        #recommend .how{height: 31.25vw;}
+}

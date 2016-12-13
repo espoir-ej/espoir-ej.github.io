@@ -1,0 +1,35 @@
+/*eyebrow_pc.css*/
+@media screen and (min-width:64rem){
+  
+#eyebrow{box-sizing: border-box;padding: 0 12.6vw;}
+    #eyebrow h3{display: block;width: 100%;height: 3rem;border-bottom: 2px solid #777;font-size: 0.9rem;/*border: 1px solid #f02;*/box-sizing: border-box;color: #777;padding-top: 1.5rem;font-family: 'Noto Sans KR', sans-serif;font-weight: lighter}
+        #eyebrow h3 i{margin-right: 0.2rem;font-size: 1rem;}
+    #lnb{width: 100%;height: 3rem;box-sizing: border-box;border-bottom: 1px solid #333;}
+        #lnb li{width: 6rem;height: inherit;box-sizing: border-box;border-right: 1px solid #fff;float: left;font-size: 0.9rem;text-align: center;font-family: 'Open Sans', sans-serif;font-weight: lighter;color: #fff;background-color: #222;line-height: 3rem;}
+        #lnb li:first-child{margin-left: calc(100% - 30rem);}
+        #lnb li:last-child{border-right: 0;}
+            #lnb li button{width: 100%;height: inherit;border-right: 0;color: #fff}
+    .info{width: 100%;height: 10rem;margin-bottom: 2rem;background-position: left}
+        content div{box-sizing: border-box;}
+    .eyebrow_bar div:first-child{height: 40rem;background-image: url(../../../img/eyebrow/eyebrow_img_01.jpg)}
+.eyebrow_bar div:nth-child(2){height: 40rem;background-image: url(../../../img/eyebrow/eyebrow_img_02.jpg)}
+    .service {    }
+    .service div {    }
+    .service div:first-child {height: 54.8rem;margin-top: 1.5rem; background-image: url(../../../img/eyebrow/service_img_01.jpg)    }
+    .service div:nth-child(2) {height: 54.8rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/service_img_02.jpg)    }
+    .service div:nth-child(3) {height: 40rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/service_img_03.jpg)    }
+    .qna {    }
+    .qna div {height: 10rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/faq_img_01.jpg)    }
+    .location {    }
+    .location div {    }
+    .location div:first-child  {height: 13rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/location_img_01.jpg)    }
+    .location div:nth-child(2) {height: 50rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/location_img_02.jpg)    }
+    .location div:nth-child(3) {height: 60rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/location_img_03.jpg)    }
+    .location div:nth-child(4) {height: 70rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/location_img_04.jpg)    }
+    .location div:nth-child(5) {height: 60rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/location_img_05.jpg)    }
+    .item {    }
+    .item div {height: 10rem;margin-top: 1.5rem;background-image: url(../../../img/eyebrow/makeup_img_01.jpg);}
+    .item ul {    }
+    .item li {    }
+
+}

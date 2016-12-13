@@ -1,0 +1,57 @@
+/*tab.css*/
+
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+	
+
+/*aside	*/
+		
+	
+/*	section video*/
+	#video{display: none;}
+		
+/*	section banner*/
+	
+	#add_banner{min-height:12.5rem; height:55.55555vw;}
+    .banner_01{background-image: url('../../../img/main/main_banner.jpg');}
+    .banner_02{background-image: url('../../../img/main/main_banner_20161013_02.jpg');}
+    .banner_03{background-image: url('../../../img/main/main_banner_20161104_01.jpg');}
+    .banner_04{background-image: url('../../../img/main/main_banner_20161108_01.jpg');}
+
+	
+	#add_banner #banner_box>ul{}
+	#add_banner #banner_box>ul>li{}
+	
+/*	article item*/
+	
+	#item ul {min-width: calc(100vw / 4); width: calc(100vw / 4 / 600 * 100);}
+  
+/*	article content*/
+	
+	.content li {width: 25%;height: 25vw;font-size: 5vw;}
+	
+	#content_02 li{width:calc(100%/3);}
+	#content_03 li{width:50%;}
+
+    
+     
+   
+    .content ul a{padding-top:6.5vw;}
+    
+	
+	#content_01 li:nth-child(1) div{background-image: url('../../../img/main/tab/everydaymakeup.png')}
+	#content_01 li:nth-child(2) div{background-image: url('../../../img/main/tab/eyebrowbar.png')}
+	#content_01 li:nth-child(3) div{background-image: url('../../../img/main/tab/lastchance.png')}
+	#content_01 li:nth-child(4) div{background-image: url('../../../img/main/tab/eyemix.png')}
+	#content_02 li:nth-child(1) div{background-image: url('../../../img/main/tab/foundation.png')}
+	#content_02 li:nth-child(2) div{background-image: url('../../../img/main/tab/color.png')}
+	#content_02 li:nth-child(3) div{background-image: url('../../../img/main/tab/brush.png')}
+	#content_03 li:nth-child(1) div{background-image: url('../../../img/main/tab/brand.png')}
+	#content_03 li:nth-child(2) div{background-image: url('../../../img/main/tab/store.png')}
+	
+
+/*	footer*/
+}
+
+
+
+	

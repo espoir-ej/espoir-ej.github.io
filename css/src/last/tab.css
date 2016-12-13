@@ -1,0 +1,7 @@
+/*eyebrow_tab.css*/
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+ h3{display: none;}
+    #item ul{width: calc(100% / 3);padding: 1rem 5.6666vw;}
+     #popup{}
+    .popup{width: 30rem;height:35rem;top: 50%;left: 50%; margin-top:-17.5rem;margin-left: -15rem}
+}

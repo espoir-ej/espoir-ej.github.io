@@ -1,0 +1,21 @@
+/*brand_mob.css*/
+@media screen and (max-width: 37.44rem){
+#brand{width: 100%;height: auto;margin-top: 1.8rem;box-sizing: border-box;padding: 1.5rem 2.6vw;background-color: #000;}
+    #brand h3{display: none;}
+    #brand h2{width: 100%;height: 3rem;font-family: 'Open Sans Condensed', sans-serif;text-align: center;font-size: 1.5rem;line-height: 3rem;margin-bottom: 1rem;color: #fff}
+    
+    #brand .text_01 p{width: 100%;height: auto;color: #fff;text-align: center;margin: 2rem 0;}
+    #brand .text_01 p span{display:block;}
+    #brand .text_01 p span:nth-of-type(1){font-size: 0.8rem;}
+    #brand .text_01 p span:nth-of-type(2){font-size: 1.5rem;font-weight: bold;}
+    #brand .text_01 p span:nth-of-type(3){font-size:0.9rem;padding:2rem 0;font-weight: lighter;line-height: 1.4rem;font-family: 'Noto Sans KR', sans-serif;}
+    #brand .text_01 p span:nth-of-type(4){font-size:0.75rem;font-weight: lighter;opacity: 0.8}
+    
+    #brand .text_02 {color: rgba(255,255,255,0.7);text-align: center;box-sizing: border-box;padding: 2rem 3rem;font-size:0.9rem}
+    #brand .text_02 p {font-weight: lighter;margin: 2rem 0;}
+    #brand .text_02 span {font-weight: bolder;color: #fff;}
+    #brand .text_02 p:nth-of-type(4){font-size:0.75rem;font-weight: bolder;font-family: 'Open Sans', sans-serif;}
+    #brand .img_02 img{width: 85%;height: auto;margin: 0 7.5%;}
+   #brand .img_03 img{width: 70%;height: auto;margin: 0 15%;}
+ 
+}

@@ -1,0 +1,14 @@
+/*eyebrow_mob.css*/
+@media screen and (max-width: 37.44rem){
+h3{display: none;}
+    #last li{font-size: 3vw}
+    .info{width: 100%;height: 26.6666vw;background-color: #ccc;}
+    content div{height: 70vw;}
+    #item ul{width: calc(100% / 2);padding: 1rem 8vw;}
+    #popup{}
+    .popup{width: 84vw;height: 95vw;top: 50vh;margin-top:-45vw;left: 6vw}
+    .close{margin-right: 2.5vw;}
+.close button{font-size: 3.5555vw;}
+.popup li {font-size: 2.6666vw;}
+.pop_cart button, .pop_buy button{font-size: 2.6666vw;}
+}

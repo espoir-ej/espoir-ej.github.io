@@ -1,0 +1,28 @@
+/*eyebrow_pc.css*/
+@media screen and (min-width:64rem){
+    #color{width: 100%;height: auto;box-sizing: border-box;padding: 1.4rem 12.6vw;/*border: 1px solid #f02*/}
+    #color h3{width: 100%;height: 3rem;border-bottom: 2px solid #777;font-size: 0.9rem;/*border: 1px solid #f02;*/box-sizing: border-box;color: #777;padding-top: 1.5rem;font-family: 'Noto Sans KR', sans-serif;font-weight: lighter}
+        #color h3 i{margin-right: 0.2rem;font-size: 1rem;}
+        #color h2{width: 100%;height: 4rem;font-family: 'Open Sans Condensed', sans-serif;text-align: left;font-size: 1.5rem;line-height:4rem;margin-bottom: 2rem;/*border: 1px solid #f02;*/box-sizing: border-box;border-bottom: 2px solid #777;text-indent: 0.25rem;background-color: #333;color: #fff;text-indent: 0.5rem}
+    #color .left, #color .right{display: none}
+    
+    #select_color{width: 100%;height: 2rem;margin-bottom: 1rem;box-sizing: border-box;position: relative;}
+    
+    .color_pad{width:100%;height: inherit;box-sizing: border-box;float: left;}
+    .color_pad ul{width: 100%;height: inherit;}
+    .color_pad ul li{width:4.28571%;margin-left: 0.5%; height: inherit;box-sizing: border-box;float: left;}
+    .color_pad ul li input[type="checkbox"]{position: absolute;z-index: -1;opacity: 0;}
+    .color_pad ul li label{display: block; width: 100%;height: 100%;position:relative;}
+    .color_pad ul li label i{position: absolute;font-size: 1.5rem;top: 50%;left: 50%;margin-top: -.75rem;margin-left: -.75rem;display: none;}
+    .color_pad ul li:first-child{margin-left: 0}
+    
+    
+    
+    #item_type{width: 40%;height: 1.8rem;float: right;margin-top: 1.25rem;}
+     #sample_color{width: 100%;height: auto;box-sizing: border-box;margin-top: 5rem;padding: 0 1.5rem;}
+    #sample_color ul li{width: 15%;height: 10vw;margin-right: 2%;box-sizing: border-box;float: left;margin-bottom: 5.33%;}
+    #sample_color ul li:nth-child(6n){margin-right: 0;}
+    
+    .text{width: 12rem;}
+    
+}

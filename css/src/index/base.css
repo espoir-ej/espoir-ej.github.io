@@ -1,0 +1,59 @@
+/*base.css	*/
+
+/*section banner*/
+#add_banner{width: 100%;margin-top: 3.25rem;background-color: #000;position:relative;}
+#add_banner i{color: #fff; font-size:5rem;}
+#add_banner .left_btn{left: 0;}
+#add_banner .right_btn{right: 0;}
+#add_banner .banner_btn{position: absolute;top: 50%;margin-top: -2.5rem;}
+#banner_box {width: 100%; height: 100%; overflow: hidden;}
+#banner_box>ul {width: 400%;height: 100%;box-shadow:0 0.05rem 0.5rem 0.5rem #000 }
+#banner_box>ul>li {width: 25%; height: 100%; float: left; background-repeat: no-repeat; background-size:contain;	background-position: center;cursor: pointer;}
+
+#banner_nav{width: 6rem;height:24px;position: absolute;z-index: 100; left: 50%; top: 90%;margin-left: -3rem}
+#banner_nav li button{width: 0.5rem;height: 0.5rem;margin: 0.5rem; float: left; border-radius: 50%;background-color: #d3c9c7;cursor: pointer;}
+
+.cf_box{display: none;}
+
+
+
+/*	article item*/
+	
+
+#item i{color: #fcfcfc; font-size:5rem;text-shadow: 1px 2px 1px #ccc}
+#item button{width: 100%;height:100%;}
+
+#item .left_btn{left: 0;}
+#item .right_btn{right: 0;}
+#item .banner_btn{width: 2.5rem;height: 10rem;top: 13.5%;position: absolute;box-sizing: border-box;z-index: 200;}
+
+	#item { width: 100%;height:15.75rem;box-sizing: border-box;padding:1.5rem 0;background-color: #ffffff;position:relative;transition: all 0.5s;z-index: 20}
+	
+	.items {width: 500%;height: 100%;background-color:inherit;overflow: hidden; box-sizing: border-box; padding:0.5rem 0; }
+	
+	#item ul{height: 100%;float: left;text-align: center;box-sizing: border-box;padding: 0 2rem;transition: all 0.3s}
+	
+	#item ul>li{width: 100%;font-family: 'Nanum Gothic', sans-serif;cursor: pointer;font-size: 0.9rem;}
+	#item ul>li:first-child{height: 70%;background-repeat: no-repeat;background-position: center; background-size:contain;}
+	#item ul>li:nth-child(2){margin: 0.3rem 0;
+			overflow: hidden;
+ 			text-overflow: ellipsis;
+ 			display: -webkit-box;
+ 			-webkit-line-clamp: 2; /* 라인수 */
+ 			-webkit-box-orient: vertical;
+ 			word-wrap:break-word; 
+ 			line-height: 0.9rem;
+ 			height: 1.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+		}
+	#item ul>li:last-child{height: auto;}
+	#item ul>li a{width: 100%;height: 100%;}
+
+/*	article content*/
+	.content{width: 100%;height: auto;font-family: 'Open Sans Condensed', sans-serif;}
+	.content li {margin: 0;padding:0;box-sizing: border-box;border: 1px solid #fff;float:left;position: relative;text-align: center;}
+    .content li div {width: 100%;height: 100%;background-size: 105%;background-repeat: no-repeat;background-position: center;transition:all 0.7s;-ms-transition:all 0.7s}
+	.content a{width: inherit;height: inherit;display: block; position: absolute; top: 0; left:0; z-index:50; color: #fff;box-sizing: border-box;}
+	.content li div:hover{background-size: 120%; overflow: hidden;}
+	
+
+

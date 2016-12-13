@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+		<link rel="apple-touch-icon" href="img/espior.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="img/espior.ico">
+		
+		
+		<!--reset-->
+		<link rel="stylesheet" href="./css/bin/reset.css">
+		<!--fontawesome-->
+		<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+		<!--flaticon-->
+		<link rel="stylesheet" href="./flat_icon/flaticon.css">
+		<!--header_css-->
+		<link rel="stylesheet" href="./css/src/header.css">
+		<!--footer_css-->
+		<link rel="stylesheet" href="./css/src/footer.css">
+		<!--base_css-->
+		<link rel="stylesheet" href="./css/src/color/base.css">
+		<!--320~599-->
+		<link rel="stylesheet" href="./css/src/color/mob.css">
+		<!--600~1023-->
+		<link rel="stylesheet" href="./css/src/color/tab.css">
+		<!--1024~-->
+		<link rel="stylesheet" href="./css/src/color/pc.css">
+		
+		
+		
+		<script src="js/jquery/jquery-1.12.4.min.js"></script>
+		<script src="js/jquery/jquery-ui.min.js"></script>
+		
+		<!--[if lte IE 9]>
+			<script src="ie/html5shiv/src/html5shiv.js"></script>
+			<script src="ie/ie7/IE8.js"></script>
+			<script src="ie/PIE/PIE_IE678.js"></script>
+			<script src="ie/Respond/src/respond.js"></script>
+		<![endif]-->
+		
+		<title>espoir</title>
+	</head>
+	
+	<body>
+	    <header id="head_box" class="clearfix" role="banner">
+            <div class="cancle_area"></div>
+	        <nav class="unb clearfix">
+	    		<h1><a href="index.html"><span class="hidden">espoir_logo</span></a></h1>
+	    			
+	    		<h2 class="menu">
+	    					<button type="button">
+	    						<i class="fa fa-bars" aria-hidden="true"></i>
+	    						<span class="hidden">utility menu</span>
+	    					</button>
+	    				
+	    		</h2>
+	    			
+	    		
+	               <aside class="slide_menu">
+	    		
+	    			
+	    			    <div class="menu_area">
+	    			    
+	    			        <form id="search" class="clearfix" method="get" action="#">
+	    			                            <input type="text" class="search" name="serach" maxlength="120">
+	    			                            <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+	    			        </form>
+	    			        <ul>
+	    			            <li class="shop"><button type="button">SHOP<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="protip"><button type="button">PRO TIP<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="chance"><button type="button">CHANCE<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="service"><button type="button">SERVICE<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			            <li class="review"><a href="#">REVIEW</a></li>
+	    			            <li class="brand"><button type="button">BRAND<i class="fa fa-angle-right" aria-hiddeen="true"></i></button></li>
+	    			        </ul>
+	    			        
+	    			    
+	    			    </div>
+	    			
+	               </aside>
+	    		
+	    		
+	    		<div class="my">
+	    			<a href="#">
+	    				<i class="fa fa-user" aria-hidden="true" style="color:#fff;"></i>
+	    				<span class="hidden">MY</span>
+	    			</a>
+	    		</div>
+	    		
+	    		
+	    		<div class="cart">
+	    			<a href="#">
+	    				<i class="fa fa-shopping-cart" aria-hidden="true" style="color:#fff;"></i>
+	    				<span class="hidden">CART</span>
+	    			</a>
+	    		</div>
+	    			
+	    	</nav>
+	    			
+	    </header>
+	    
+	    <section id="color">
+            <h3>
+            <i class="fa fa-home" aria-hidden="true"></i>
+            PROTIP / 컬러 파인더</h3>
+            
+	        <h2>COLOR FINDER</h2>
+	        
+	        <div id="select_color" class="clearfix">
+	            <div class="left">
+	                <button type="button">
+	                    <i class="fa fa-caret-left" aria-hidden="true"></i>
+	                    <span class="hidden">left</span>
+	                </button>
+	            </div>
+	            
+	            <div class="color_pad">
+                    <ul>
+                        <li class="color_01">
+                            <input type="checkbox" name="c_filter" id="chk_01">
+                            <label for="chk_01">
+                               <span class="hidden">골드</span>
+                               <i class="fa fa-check" aria-hidden="true"></i>
+                            </label>
+                        </li>
+                        <li class="color_02">
+                            <input type="checkbox" name="c_filter" id="chk_02">
+                            <label for="chk_02">
+                               <span class="hidden">그레이</span>
+                               <i class="fa fa-check" aria-hidden="true"></i>
+                            </label>
+                            
+                        </li>
+                        <li class="color_03">
+                            <input type="checkbox" name="c_filter" id="chk_03">
+                            <label for="chk_03"><span class="hidden">그린</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label>
+                        </li>
+                        <li class="color_04">
+                        <input type="checkbox" name="c_filter" id="chk_04">
+                        <label for="chk_04"><span class="hidden">네이비</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label>
+                        </li>
+                        <li class="color_05">
+                        <input type="checkbox" name="c_filter" id="chk_05">
+                        <label for="chk_05"><span class="hidden">라벤더</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label>
+                        </li>
+                        <li class="color_06"><input type="checkbox" name="c_filter" id="chk_06"><label for="chk_06"><span class="hidden">레드</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_07"><input type="checkbox" name="c_filter" id="chk_07"><label for="chk_07"><span class="hidden">로즈</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_08"><input type="checkbox" name="c_filter" id="chk_08"><label for="chk_08"><span class="hidden">민트</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_09"><input type="checkbox" name="c_filter" id="chk_09"><label for="chk_09"><span class="hidden">베이지</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_10"><input type="checkbox" name="c_filter" id="chk_10"><label for="chk_10"><span class="hidden">브라운</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_11"><input type="checkbox" name="c_filter" id="chk_11"><label for="chk_11"><span class="hidden">블랙</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_12"><input type="checkbox" name="c_filter" id="chk_12"><label for="chk_12"><span class="hidden">블루</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_13"><input type="checkbox" name="c_filter" id="chk_13"><label for="chk_13"><span class="hidden">실버</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_14"><input type="checkbox" name="c_filter" id="chk_14"><label for="chk_14"><span class="hidden">옐로우</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_15"><input type="checkbox" name="c_filter" id="chk_15"><label for="chk_15"><span class="hidden">오렌지</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_16"><input type="checkbox" name="c_filter" id="chk_16"><label for="chk_16"><span class="hidden">카키</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_17"><input type="checkbox" name="c_filter" id="chk_17"><label for="chk_17"><span class="hidden">퍼플</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_18"><input type="checkbox" name="c_filter" id="chk_18"><label for="chk_18"><span class="hidden">피치</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_19"><input type="checkbox" name="c_filter" id="chk_19"><label for="chk_19"><span class="hidden">코랄</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_20"><input type="checkbox" name="c_filter" id="chk_20"><label for="chk_20"><span class="hidden">핑크</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                        <li class="color_21"><input type="checkbox" name="c_filter" id="chk_21"><label for="chk_21"><span class="hidden">화이트</span>
+                               <i class="fa fa-check" aria-hidden="true"></i></label></li>
+                    </ul>
+	                
+	            </div>
+	            
+	            <div class="right">
+                    <button type="button">
+	                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+	                    <span class="hidden">right</span>
+	                </button>
+	            </div>
+	        </div>
+	        
+            <select name="item_type" id="item_type">
+                    <option value="">-카테고리-</option>
+                    <option value="">립스틱</option>
+                    <option value="">립글로스</option>
+                    <option value="">립틴트</option>
+                    <option value="">립펜슬</option>
+                    <option value="">아이섀도우</option>
+                    <option value="">아이라이너</option>
+                    <option value="">아이브로우</option>
+                    <option value="">치크</option>
+                    <option value="">네일</option>
+            </select>
+                
+	        <article id="sample_color" class="clearfix">
+	            <ul class="clearfix">
+	                
+	            </ul>
+	        </article>
+	    
+	     </section>
+	     
+	        
+	      
+        <footer>
+			
+				<address>고객상담:080-619-8888  월~금 09:00~18:00(토/일/공휴일 휴무)<br />
+					이메일:espoirmail@espoir.com </address>
+			
+			<h3 class="clearfix">
+				<a href="#">서비스이용약관</a>
+				<a href="#">개인정보취급방침</a>
+			</h3>
+			
+			<address>ⓒ2015 eSporir. All Right Reserved.</address>
+		</footer>
+		
+		
+   <script src="js/src/slide_menu.js"></script>
+   <script src="js/src/color.js"></script>
+    </body>
+</html>
