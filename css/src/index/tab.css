@@ -24,11 +24,11 @@
 /*	article item*/
 	
 	#item ul {min-width: 25vw;
-       width: -webkit-calc(25vw / 600 * 100);
-       width: -moz-calc(25vw / 600 * 100);
-       width: -ms-calc(25vw / 600 * 100);
-       width: -o-calc(25vw / 600 * 100);
-       width: calc(25vw / 600 * 100);}
+       width: -webkit-calc(25vw / 6);
+       width: -moz-calc(25vw / 6);
+       width: -ms-calc(25vw / 6);
+       width: -o-calc(25vw / 6);
+       width: calc(25vw / 6);}
   
 /*	article content*/
 	
