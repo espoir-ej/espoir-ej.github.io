@@ -23,13 +23,23 @@
 	
 /*	article item*/
 	
-	#item ul {min-width: 25vw; width: calc(25vw / 600 * 100);}
+	#item ul {min-width: 25vw;
+       width: -webkit-calc(25vw / 600 * 100);
+       width: -moz-calc(25vw / 600 * 100);
+       width: -ms-calc(25vw / 600 * 100);
+       width: -o-calc(25vw / 600 * 100);
+       width: calc(25vw / 600 * 100);}
   
 /*	article content*/
 	
 	.content li {width: 25%;height: 25vw;font-size: 5vw;}
 	
-	#content_02 li{width:calc(100% / 3);}
+	#content_02 li{
+       width: -webkit-calc(100% / 3);
+       width: -moz-calc(100% / 3);
+       width: -ms-calc(100% / 3);
+       width: -o-calc(100% / 3);
+       width: calc(100% / 3);}
 	#content_03 li{width:50%;}
 
     

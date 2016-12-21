@@ -47,7 +47,13 @@
 /*	article item*/
 	
 	
-	#item ul {min-width: 20vw; width: calc(20vw / 1024 * 100);}
+	#item ul {min-width: 20vw;
+       width: -webkit-calc(20vw / 1024 * 100);
+       width: -moz-calc(20vw / 1024 * 100);
+       width: -ms-calc(20vw / 1024 * 100);
+       width: -o-calc(20vw / 1024 * 100);
+       width: calc(20vw / 1024 * 100);
+    }
 	
 	
 	
@@ -65,7 +71,12 @@
     #content_01 li{width: 25%;}
     
     #content_02{width: 60%;}
-    #content_02 li{width: calc(100% / 3);}
+    #content_02 li{
+       width: -webkit-calc(100% / 3);
+       width: -moz-calc(100% / 3);
+       width: -ms-calc(100% / 3);
+       width: -o-calc(100% / 3);
+       width: calc(100% / 3);}
 
     
     #content_03{width: 40%;} 
