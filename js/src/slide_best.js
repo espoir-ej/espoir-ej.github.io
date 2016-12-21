@@ -18,8 +18,7 @@ $(function() {
 		
 		];
 	
-	var a = $('#content_01 li').width();
-	console.log("li:" + a);
+
 //item 생성
 	var i = 0, j = 0;
         
