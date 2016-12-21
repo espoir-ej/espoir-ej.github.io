@@ -48,11 +48,11 @@
 	
 	
 	#item ul {min-width: 20vw;
-       width: -webkit-calc((20vw / 1024) * 100);
-       width: -moz-calc(20vw / 1024 * 100);
-       width: -ms-calc(20vw / 1024 * 100);
-       width: -o-calc(20vw / 1024 * 100);
-       width: calc(20vw / 1024 * 100);
+       width: -webkit-calc(20vw / 10.24);
+       width: -moz-calc(20vw / 10.24);
+       width: -ms-calc(20vw / 10.24);
+       width: -o-calc(20vw / 10.24);
+       width: calc(20vw / 10.24);
     }
 	
 	
