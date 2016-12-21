@@ -47,7 +47,7 @@
 /*	article item*/
 	
 	
-	#item ul {min-width: calc(100vw / 5); width: calc(100vw / 5 / 1024 * 100);}
+	#item ul {min-width: 20vw; width: calc(20vw / 1024 * 100);}
 	
 	
 	

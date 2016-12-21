@@ -23,13 +23,13 @@
 	
 /*	article item*/
 	
-	#item ul {min-width: calc(100vw / 4); width: calc(100vw / 4 / 600 * 100);}
+	#item ul {min-width: 25vw; width: calc(25vw / 600 * 100);}
   
 /*	article content*/
 	
 	.content li {width: 25%;height: 25vw;font-size: 5vw;}
 	
-	#content_02 li{width:calc(100%/3);}
+	#content_02 li{width:calc(100% / 3);}
 	#content_03 li{width:50%;}
 
     

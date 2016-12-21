@@ -51,7 +51,7 @@
 /*	article content*/
 	.content{width: 100%;height: auto;font-family: 'Open Sans Condensed', sans-serif;}
 	.content li {margin: 0;padding:0;box-sizing: border-box;border: 1px solid #fff;float:left;position: relative;text-align: center;}
-    .content li div {width: 100%;height: 100%;background-size: 105%;background-repeat: no-repeat;background-position: center;transition:all 0.7s;-ms-transition:all 0.7s}
+    .content li div {width: 100%;height: 100%;background-size: 105%;background-repeat: no-repeat;background-position: center;transition:all 0.7s;transition:all 0.7s}
 	.content a{width: inherit;height: inherit;display: block; position: absolute; top: 0; left:0; z-index:50; color: #fff;box-sizing: border-box;}
 	.content li div:hover{background-size: 120%; overflow: hidden;}
 	
