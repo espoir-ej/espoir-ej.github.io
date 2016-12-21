@@ -133,10 +133,9 @@ var menu = $('.slide_menu');
           
 			case 0 :
 				for(i=0;i<shop.length;i++){
-				dl.append('<dt><a href="#">');/*dt생성*/
-                var dt = $('.slide_menu').find('dt');
-				
-				dt.eq(i).find('a').text(shop[i].dt).attr({href:shop[i].link});}
+				    dl.append('<dt><a href="#">');/*dt생성*/
+                    var dt = $('.slide_menu').find('dt');
+				    dt.eq(i).find('a').text(shop[i].dt).attr({href:shop[i].link});}
 				
 				dt.eq(0).text(shop[0].dt);
 				
@@ -156,7 +155,6 @@ var menu = $('.slide_menu');
 					dd.eq(0).append('<div><a href="#">');
 				    dd.eq(0).find('a').eq(i).text(shop[2].skincare[i].dd).attr({href:shop[2].skincare[i].link});
 				}
-				
 				for(i=0;i<shop[3].facemakeup.length;i++){
 				    dd.eq(1).append('<div><a href="#">');
 					dd.eq(1).find('a').eq(i).text(shop[3].facemakeup[i].dd).attr({href:shop[3].facemakeup[i].link});
@@ -175,7 +173,8 @@ var menu = $('.slide_menu');
 					$(this).parent().next().stop().slideToggle();
                     $(this).find('i').toggleClass('fa-angle-down').toggleClass('fa-angle-up');
                     dd.not(click_dt.next()).stop().slideUp(); /*누른 dt의 dd를 제외한 dd를 슬라이드업*/
-                    dd.prev().not(click_dt).find('i').removeClass('fa-angle-up').addClass('fa-angle-down'); /*dt중 클릭한 dt를 제외하고는 다운아이콘으로 변경*/
+                    dd.prev().not(click_dt).find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+                    /*dt중 클릭한 dt를 제외하고는 다운아이콘으로 변경*/
                     });
 				
               break;
