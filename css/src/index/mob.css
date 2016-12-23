@@ -30,7 +30,13 @@
 	.content li{height: 33.333333vw;font-size: 6vw}
 	
 	 #content_03 li, #content_01 li{width: 50%;}
-	#content_02 li{width:calc(100% / 3);}
+	#content_02 li{
+       width: -webkit-calc(100% / 3);
+       width: -moz-calc(100% / 3);
+       width: -ms-calc(100% / 3);
+       width: -o-calc(100% / 3);
+       width: calc(100% / 3);
+    }
    
 	
 	

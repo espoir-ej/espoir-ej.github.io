@@ -265,10 +265,5 @@ var menu = $('.slide_menu');
         };
 	});
     
-    $(window).resize(function(){
-		
-	location.reload(); 
-	
-	});
     
 });
