@@ -19,5 +19,10 @@
 		$('.play').hide();
 		$('.pause').show();
 	});
+    
+    var ww = $(window).width();
+    if(ww<1024){
+        espoirVideo.pause();
+    }else{}
 })(this.jQuery);
 

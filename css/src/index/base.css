@@ -14,8 +14,8 @@
 #banner_nav li button{width: 0.5rem;height: 0.5rem;margin: 0.5rem; float: left; border-radius: 50%;background-color: #d3c9c7;cursor: pointer;}
 
 .cf_box{display: none;}
-
-
+.pause{display: none;}
+.play{display: none;}
 
 /*	article item*/
 	

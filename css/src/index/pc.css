@@ -27,11 +27,11 @@
 
 /*play icon*/	
 	
-.pause{width: 2rem;height: 2rem;position: fixed;top:5%;right: 3%;z-index: 500;}
+.pause{ display: block; width: 2rem;height: 2rem;position: fixed;top:5%;right: 3%;z-index: 500;}
 .pause button{width: 2rem;height: 2rem;background-color: rgba(255,255,255,0.5);border-radius: 50% }
 .pause i {font-size: 2rem;color: #000}
 
-.play{width: 2rem;height: 2rem;position: fixed;top:5%;right: 3%;z-index: 500;}
+.play{display: block; width: 2rem;height: 2rem;position: fixed;top:5%;right: 3%;z-index: 500;}
 .play button{width: 2rem;height: 2rem;background-color:rgba(255,255,255,0.5);border-radius: 50%}
 .play i {font-size: 2rem;color: #000}
 
