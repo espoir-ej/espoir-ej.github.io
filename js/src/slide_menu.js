@@ -26,7 +26,7 @@ var shop = [
 										{"dd":"아이브라우","link":"./eye.html"},
 										{"dd":"마스카라","link":"./eye.html"},
 										{"dd":"아이 기타","link":"./eye.html"}]   },
-			{"dt" : "치크","link":"./shop.html"},
+			{"dt" : "치크","link":"./cheek.html"},
 			{"dt" : "립" , "lip":[
 									{"dd":"립스틱","link":"#"},
 									{"dd":"립글로즈","link":"#"},
