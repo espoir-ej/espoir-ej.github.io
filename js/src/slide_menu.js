@@ -21,11 +21,11 @@ var shop = [
 										{"dd":"파우더","link":"./facemakeup.html"}]
             },
 			{"dt" : "아이" , "eye":[
-										{"dd":"아이섀도우","link":"#"},
-										{"dd":"아이라이너","link":"#"},
-										{"dd":"아이브라우","link":"#"},
-										{"dd":"마스카라","link":"#"},
-										{"dd":"아이 기타","link":"#"}]   },
+										{"dd":"아이섀도우","link":"./eye.html"},
+										{"dd":"아이라이너","link":"./eye.html"},
+										{"dd":"아이브라우","link":"./eye.html"},
+										{"dd":"마스카라","link":"./eye.html"},
+										{"dd":"아이 기타","link":"./eye.html"}]   },
 			{"dt" : "치크","link":"./shop.html"},
 			{"dt" : "립" , "lip":[
 									{"dd":"립스틱","link":"#"},
