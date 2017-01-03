@@ -265,5 +265,11 @@ var menu = $('.slide_menu');
         };
 	});
     
-    
+        $(window).resize(function(){
+        var reww = $(window).width();
+        if( reww !== ww){
+            location.reload();
+                        }else{}
+        
+                                });
 });

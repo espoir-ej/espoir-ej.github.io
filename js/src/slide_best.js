@@ -106,13 +106,7 @@ $(function() {
 								});
 	});
     
-    $(window).resize(function(){
-        var reww = $(window).width();
-        if( reww !== ww){
-            location.reload();
-                        }else{}
-        
-                                });  //윈도우 사이즈가 달라지면 새로우 paddingLeft값을 로드해야함으로.
+
 	
 });
 		
