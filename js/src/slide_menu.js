@@ -6,10 +6,10 @@ var shop = [
 			{"dt" :"SHOP"},
 			{"dt" : "베스트 신제품","link":"./best_new.html"},
 			{"dt" : "스킨 케어", "skincare":[
-										{"dd":"클렌저","link":"#"},
-										{"dd":"데일리케어","link":"#"},
-										{"dd":"엑스트라케어","link":"#"},
-										{"dd":"선케어","link":"#"}]
+										{"dd":"클렌저","link":"./skincare.html"},
+										{"dd":"데일리케어","link":"./skincare.html"},
+										{"dd":"엑스트라케어","link":"./skincare.html"},
+										{"dd":"선케어","link":"./skincare.html"}]
             },
   
 			{"dt" : "페이스 메이크업" , "facemakeup":[

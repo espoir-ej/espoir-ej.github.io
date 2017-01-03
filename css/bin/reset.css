@@ -24,7 +24,7 @@ table, thead, tbody, tfoot, tr, td, th {
 
 button, [type="button"], [type="submit"], [type="reset"]{cursor: pointer; border:0;}
 a:focus, input:focus, button:focus, textarea:focus, select:focus{
-	outline:1px solid rgba(100,100,200,0.6); outline-offset:1px; position:relative; z-index:10;}
+	outline:0px solid rgba(100,100,200,0.6); outline-offset:1px; position:relative; z-index:10;}
 button{background-color: transparent;}
 /* html5 */
 header, nav, article, footer, aside{display: block;}

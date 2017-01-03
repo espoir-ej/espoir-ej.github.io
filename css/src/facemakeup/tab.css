@@ -1,0 +1,38 @@
+/*best_new.css*/
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+  
+    h3{display: none;}
+    #lnb_big li{width: 50%;font-size: 1.2rem;}
+    .info{display: none;}
+    #lnb_small{display: none;}
+    select{margin: 0 5%;width: 90%; margin-bottom: 2vw;}
+    #lnb_s{height: 2rem;margin-top: 2vw;}
+    #align{height: 2rem;}
+    
+    #item ul{width: calc(100% / 3);padding: 1rem 5.6666vw;}
+     #popup{}
+    .popup{width: 30rem;height:35rem;top: 50%;left: 50%; margin-top:-17.5rem;margin-left: -15rem}
+    
+   /* h3{display: none;}
+    .eyebrow_bar div:first-child{height: 40rem;background-image: url(../../../img/eyebrow/eyebrow_img_01.jpg)}
+.eyebrow_bar div:nth-child(2){height: 40rem;background-image: url(../../../img/eyebrow/eyebrow_img_02.jpg)}
+    .service {    }
+    .service div {    }
+    .service div:first-child {background-image: url(../../../img/eyebrow/service_img_01.jpg)    }
+    .service div:nth-child(2) {background-image: url(../../../img/eyebrow/service_img_02.jpg)    }
+    .service div:nth-child(3) {background-image: url(../../../img/eyebrow/service_img_03.jpg)    }
+    .qna {    }
+    .qna div {background-image: url(../../../img/eyebrow/faq_img_01.jpg)    }
+    .location {    }
+    .location div {    }
+    .location div:first-child  {background-image: url(../../../img/eyebrow/location_img_01.jpg)    }
+    .location div:nth-child(2) {background-image: url(../../../img/eyebrow/location_img_02.jpg)    }
+    .location div:nth-child(3) {background-image: url(../../../img/eyebrow/location_img_03.jpg)    }
+    .location div:nth-child(4) {background-image: url(../../../img/eyebrow/location_img_04.jpg)    }
+    .location div:nth-child(5) {background-image: url(../../../img/eyebrow/location_img_05.jpg)    }
+    .item {    }
+    .item div {background-image: url(../../../img/eyebrow/makeup_img_01.jpg)    }
+    .item ul {    }
+    .item li {    }
+*/
+}

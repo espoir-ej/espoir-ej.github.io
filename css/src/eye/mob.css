@@ -1,0 +1,23 @@
+/*best_new.css*/
+@media screen and (max-width: 37.44rem){
+
+    h3{display: none;}
+    #lnb_big li{width: 50%;font-size: 3vw}
+    
+    .info{display: none;}
+    #lnb_small{display: none;}
+    select{margin: 0 5%;width: 90%; margin-bottom: 2vw;}
+    #lnb_s{height: 2rem;margin-top: 2vw;}
+    #align{height: 2rem;}
+
+    content div{height: 70vw;}
+    #item ul{width: calc(100% / 2);padding: 1rem 8vw;}
+    #popup{}
+    .popup{width: 84vw;height: 95vw;top: 50vh;margin-top:-45vw;left: 6vw}
+    .close{margin-right: 2.5vw;}
+    .close button{font-size: 3.5555vw;}
+    .popup li {font-size: 2.6666vw;}
+    .pop_cart button, .pop_buy button{font-size: 2.6666vw;}
+    
+    
+}
