@@ -12,8 +12,8 @@
         .today_03 {display: none;}    
 #recommend{width: 100%;height: auto;box-sizing: border-box;}
 
-#recommend .reco_img{width: 100%;box-sizing: border-box;border: 1px solid #ccc}
-#recommend .how{width: 100%;box-sizing: border-box;border: 1px solid #ccc}
+#recommend .reco_img{width: 100%;box-sizing: border-box;border: 1px solid #ccc;color: #333;font-size: 3rem;text-align:center; line-height: 12rem;}
+#recommend .how{width: 100%;box-sizing: border-box;border: 1px solid #ccc;color: #333;font-size: 3rem;text-align:center; line-height: 12rem;}
 
 
 
