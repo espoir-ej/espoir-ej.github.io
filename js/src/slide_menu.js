@@ -13,12 +13,12 @@ var shop = [
             },
   
 			{"dt" : "페이스 메이크업" , "facemakeup":[
-										{"dd":"프라이머","link":"#"},
-										{"dd":"루미나이저","link":"#"},
-										{"dd":"BB 틴티드","link":"#"},
-										{"dd":"컨실러","link":"#"},
-										{"dd":"파운데이션","link":"#"},
-										{"dd":"파우더","link":"#"}]
+										{"dd":"프라이머","link":"./facemakeup.html"},
+										{"dd":"루미나이저","link":"./facemakeup.html"},
+										{"dd":"BB 틴티드","link":"./facemakeup.html"},
+										{"dd":"컨실러","link":"./facemakeup.html"},
+										{"dd":"파운데이션","link":"./facemakeup.html"},
+										{"dd":"파우더","link":"./facemakeup.html"}]
             },
 			{"dt" : "아이" , "eye":[
 										{"dd":"아이섀도우","link":"#"},
