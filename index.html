@@ -4,8 +4,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-		<link rel="apple-touch-icon" href="img/espior.ico">
-		<link rel="shortcut icon" type="image/x-icon" href="img/espior.ico">
+		<link rel="apple-touch-icon" href="./espior.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="./espior.ico">
 		
 		
 		<!--reset-->
@@ -28,13 +28,12 @@
 		<link rel="stylesheet" href="./css/src/index/pc.css">
 
 
-    
-        <script src="http://vjs.zencdn.net/c/video.js"></script>
 		<script src="js/jquery/jquery-1.12.4.min.js"></script>
 		<script src="js/jquery/jquery-ui.min.js"></script>
 		
 		<!--[if lte IE 9]>
-			<script src="ie/html5shiv/src/html5shiv.js"></script>
+		
+		    <script src="ie/html5shiv/src/html5shiv.js"></script>
 			<script src="ie/ie7/IE8.js"></script>
 			<script src="ie/PIE/PIE_IE678.js"></script>
 			<script src="ie/Respond/src/respond.js"></script>
@@ -104,7 +103,12 @@
 			
 		<section class="cf_box">
 		    <section class="dark"></section>
-		    <video src="./espoir_cf.webm" id="video" autoplay loop muted></video>
+		    
+		    <video type="video/webm" id="video" autoplay loop muted>
+                <source src="./espoir_cf.mp4" type="video/mp4"/>
+                <source src="./espoir_cf.webm" type="video/webm"/>
+		    </video>
+		    
       	</section>
 		    <div class="pause">
 		    	<button type="button"><i class="fa fa-pause-circle-o" aria-hidden="true"></i></button>
